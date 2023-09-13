@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter{
+    padding-top: 60px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.counter button{
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+    color: #000;
+}
+.counter-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.counter-block button{
+    margin: 0;
+    padding: 10px 20px;
+    color: #000;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}

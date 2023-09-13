@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avto{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    background: #dac7c7;
+}
+.avto-left,.avto-right{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px;
+}
+.avto-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.avto-left ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.avto-left img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+.avto-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.avto-right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.avto-right ul li{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.avto-right ul li button{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    background: #f36ace;
+}
+.avto-left ul li button{
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    border: 1px #000 solid;
+    padding: 3px 6px;
+    border-radius: 5px;
+    background: #f36ace;
+}
+.avto-left ul li{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
